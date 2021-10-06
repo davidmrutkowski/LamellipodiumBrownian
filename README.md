@@ -1,4 +1,4 @@
-Brownian dynamics code that simulates a lamellipodium at the discrete filament level undergoing retrograde flow in the presence of a nascent focal adhesion as outlined in https://www.biorxiv.org/content/10.1101/2021.05.03.442534v1
+Brownian dynamics code that simulates a lamellipodium at the discrete filament level undergoing retrograde flow in the presence of a nascent focal adhesion. This code was developed for the simulations in Rutkowski and Vavylonis, PLOS Comp. Biol. (2021, accepted), bioRxiv https://www.biorxiv.org/content/10.1101/2021.05.03.442534v1
 
 Compilation using g++:
 g++ -O2 -fopenmp -o main main.cpp Filament.cpp Grid.cpp Particle.cpp ParticleInfo.cpp Simulation.cpp SimulationBox.cpp SpringBondInfo.cpp TaggedVector.cpp
